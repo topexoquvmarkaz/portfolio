@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javohirbek | Full-Stack Dasturchi Portfoliosi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode">
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Javohir<span>bek</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Asosiy</a></li>
+                <li><a href="#about">Men haqimda</a></li>
+                <li><a href="#skills">Ko'nikmalar</a></li>
+                <li><a href="#projects">Loyihalar</a></li>
+                <li><a href="#experience">Tajriba</a></li>
+                <li><a href="#contact">Aloqa</a></li>
+            </ul>
+            <div class="nav-extras">
+                <button id="theme-toggle" aria-label="Mavzuni o'zgartirish">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="fade-in">Assalomu alaykum, men</h2>
+                <h1 class="fade-in delay-1">Javohirbek</h1>
+                <h3 class="fade-in delay-2">Full-Stack Dasturchi</h3>
+                <p class="fade-in delay-3">Zamonaviy, tezkor va xavfsiz web-ilovalarni yaratishga ixtisoslashganman. 15+ yillik tajriba bilan murakkab muammolarga yechim topaman.</p>
+                <div class="hero-btns fade-in delay-4">
+                    <a href="#projects" class="btn btn-primary">Loyihalarni ko'rish</a>
+                    <a href="#contact" class="btn btn-outline">Bog'lanish</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Men haqimda</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Men Javohirbekman, yuqori malakali Full-stack dasturchi. Men nafaqat kod yozaman, balki biznes muammolarini hal qiladigan raqamli mahsulotlarni yarataman.</p>
+                    <p>Mening asosiy maqsadim - foydalanuvchilar uchun qulay va biznes uchun samarali interfeyslarni Backend tizimlari bilan integratsiya qilishdir.</p>
+                    <div class="personal-info">
+                        <div class="info-item"><strong>Manzil:</strong> Toshkent, O'zbekiston</div>
+                        <div class="info-item"><strong>Email:</strong> javohir@example.com</div>
+                        <div class="info-item"><strong>Freelance:</strong> Mavjud</div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>15+</h3>
+                        <p>Yillik Tajriba</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>100+</h3>
+                        <p>Bajarilgan Loyihalar</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>50+</h3>
+                        <p>Mamnun Mijozlar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Ko'nikmalar</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <i class="fas fa-code"></i>
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>React / Next.js</li>
+                        <li>TypeScript</li>
+                        <li>Tailwind CSS</li>
+                        <li>Vue.js</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js / NestJS</li>
+                        <li>Python (FastAPI, Django)</li>
+                        <li>Go</li>
+                        <li>REST & GraphQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <i class="fas fa-database"></i>
+                    <h3>Ma'lumotlar Bazasi</h3>
+                    <ul>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                        <li>Redis</li>
+                        <li>Elasticsearch</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <i class="fas fa-cloud"></i>
+                    <h3>DevOps & Boshqalar</h3>
+                    <ul>
+                        <li>Docker / Kubernetes</li>
+                        <li>AWS / Google Cloud</li>
+                        <li>CI/CD (GitHub Actions)</li>
+                        <li>Git / Linux</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Loyihalar</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/600x400" alt="E-commerce Platform">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-tijorat Platformasi</h3>
+                        <p>Katta hajmdagi mahsulotlar uchun mo'ljallangan, yuqori yuklanishga bardoshli do'kon.</p>
+                        <div class="tags">
+                            <span>Next.js</span>
+                            <span>Node.js</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <a href="#" class="project-link">Batafsil <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/600x400" alt="SaaS Dashboard">
+                    </div>
+                    <div class="project-info">
+                        <h3>Analitika Dashboard</h3>
+                        <p>Biznes jarayonlarini kuzatish va real vaqt rejimida hisobotlar yaratish tizimi.</p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>D3.js</span>
+                            <span>Firebase</span>
+                        </div>
+                        <a href="#" class="project-link">Batafsil <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/600x400" alt="Mobile App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Fintech Ilova</h3>
+                        <p>Xalqaro pul o'tkazmalari va hamyon xizmatlarini taqdim etuvchi xavfsiz ilova.</p>
+                        <div class="tags">
+                            <span>React Native</span>
+                            <span>Go</span>
+                            <span>Redis</span>
+                        </div>
+                        <a href="#" class="project-link">Batafsil <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Tajriba</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020 - Hozirgacha</div>
+                    <div class="timeline-content">
+                        <h3>Senior Full-Stack Developer</h3>
+                        <h4>Tech Global Solutions</h4>
+                        <p>Yirik korporativ mijozlar uchun arxitektura dizayni va jamoani boshqarish.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2017 - 2020</div>
+                    <div class="timeline-content">
+                        <h3>Middle Web Developer</h3>
+                        <h4>InnoSoft Co.</h4>
+                        <p>Frontend va Backend qismlarini ishlab chiqish, API integratsiyasi.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2014 - 2017</div>
+                    <div class="timeline-content">
+                        <h3>Junior Developer</h3>
+                        <h4>StartUp Hub</h4>
+                        <p>Kichik loyihalar uchun UI qismlari va sodda ma'lumotlar bazasi modellari.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Bog'lanish</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Savollaringiz bormi?</h3>
+                    <p>Loyiha takliflari yoki shunchaki salom berish uchun quyidagi shakldan foydalaning.</p>
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <span>javohir@example.com</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-phone"></i>
+                            <span>+998 90 123 45 67</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Ismingiz</label>
+                        <input type="text" id="name" name="name" placeholder="Ismingizni kiriting">
+                        <span class="error-msg">Ism kamida 2 ta harfdan iborat bo'lishi kerak</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Emailingizni kiriting">
+                        <span class="error-msg">To'g'ri email manzilini kiriting</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Xabar</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Xabaringizni yozing"></textarea>
+                        <span class="error-msg">Xabar bo'sh bo'lmasligi kerak</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Xabarni yuborish</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Javohirbek. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
